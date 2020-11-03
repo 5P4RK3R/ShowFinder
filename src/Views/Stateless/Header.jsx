@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom"
+
 export const Header =() => {
     return (
         <div className="nav-bar">
-        <h5>Show Finder</h5>
+        <Link to="/">Show Finder</Link>
       </div>
     )
 }
